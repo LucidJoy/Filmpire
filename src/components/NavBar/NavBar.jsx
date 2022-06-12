@@ -54,8 +54,8 @@ const NavBar = () => {
           );
 
           dispatch(setUser(userData));
+          history.push("/");
         }
-        history.push("/");
       }
     };
 
